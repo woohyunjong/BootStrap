@@ -2,3 +2,10 @@
 #title {
   background-color: #ff4c68;
 }
+
+h1 {
+  font-family: "dokdo";
+  /* font-family: 'Ubuntu'; */
+  font-size: 3rem;
+  line-height:1.5;
+}
