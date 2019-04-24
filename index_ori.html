@@ -5,31 +5,73 @@
   <meta charset="utf-8">
   <title>독도 사이트 - ori</title>
   <link rel="stylesheet" href="css/styles_ori.css">
+
+<!-- CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- JavaScript link -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- font link -->
+<link href="https://fonts.googleapis.com/css?family=Dokdo|Montserrat:100,400,900|Ubuntu:300,400,700" rel="stylesheet">
+
 </head>
 
 <body>
-
   <section id="title">
 
     <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">Dokdo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+            </li>
+                    <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        </div>
+    </nav>
 
     <!-- Title -->
 
-    <div>
-      <h1>푸르다고 <br />그저 바라만 보고 있을 수 없다.</h1>
-      <h1>높고 맑게 탈각한 흔적이 <br>저기 있다.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/dokdo02.jpg" alt="dokdo">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1>푸르다고 <br />그저 바라만 보고 있을 수 없다.</h1>
+        <h1>높고 맑게 탈각한 흔적이 <br>저기 있다.</h1>
+        <button type="button">Download</button>
+        <button type="button">Download</button>
+      </div>
+
+      <div class="col-lg-6">
+        <img src="images/dokdo02.jpg" alt="dokdo">
+      </div>
+
     </div>
 
   </section>
-
 
   <!-- Features -->
 
@@ -46,7 +88,6 @@
 
   </section>
 
-
   <!-- Testimonials -->
 
   <section id="testimonials">
@@ -61,7 +102,6 @@
 
   </section>
 
-
   <!-- Press -->
 
   <section id="press">
@@ -71,7 +111,6 @@
     <img src="images/mashable.png" alt="mashable-logo">
 
   </section>
-
 
   <!-- Pricing -->
 
@@ -107,7 +146,6 @@
 
   </section>
 
-
   <!-- Call to Action -->
 
   <section id="cta">
@@ -117,7 +155,6 @@
     <button type="button">Download</button>
 
   </section>
-
 
   <!-- Footer -->
 
